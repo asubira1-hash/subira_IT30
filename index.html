@@ -1,66 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Daily Purr | Breaking News</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            background-color: #f4f4f9;
-        }
-        header {
-            border-bottom: 3px solid #333;
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .content {
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        .subtitle {
-            font-style: italic;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <h1>Semantic HTML Refactor Exercise</h1> 
+
+
+  <style>
+    /* Basic layout + visuals so structure is obvious */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.4;
+      margin: 0;
+      background: #f5f6f8;
+      color: #222;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+
+    /* Starter file uses divs; students will swap to semantic tags.
+       This CSS is written to still work after refactor. */
+    #header, header {
+      background: #1f2937;
+      color: #fff;
+      padding: 18px 20px;
+      border-radius: 10px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    #nav, nav {
+      margin-top: 12px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+
+    /* Inline vs block trap:
+       Links are inline by default; spacing/padding may feel "off" until students improve structure. */
+    #nav a, nav a {
+      text-decoration: none;
+      color: #2563eb;
+      margin-right: 10px;
+    }
+
+    #nav a:hover, nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Two-column layout */
+    .layout {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+      align-items: start;
+    }
+
+    #content, main {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    #sidebar, aside {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .post, article {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+      background: #fbfbfc;
+    }
+
+    /* Heading styling works whether students convert div titles to h1/h2 */
+    h1 {
+      font-size: 22px;
+      margin: 0 0 6px 0;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 6px 0;
+    }
+
+    .meta {
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+
+    .box {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+      background: #fbfbfc;
+    }
+
+    #footer, footer {
+      margin-top: 14px;
+      padding: 12px 16px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    /* Make it readable on narrow screens */
+    @media (max-width: 800px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
+
 <body>
+  <div class="container">
 
-    <header>
-        <h1>Local Cat Convinced It Has Never Been Fed</h1>
-        <p class="subtitle">By: A. Scratchpost | Staff Reporter</p>
+    <header id="header">
+      <h2 class="logo">Hofstra Student Services</h2>
+      <h2 class="tagline">Updates, deadlines, and announcements</h2>
     </header>
+    <!--i used header for this class because it appears this text would be at the top of the page since it contains the logo and tagline-->
 
-    <div class="content">
-        <h2>A Tragic Tale of an Empty Bowl</h2>
-        <p>In a shocking turn of events, local resident <strong>Mr. Whiskers</strong>, a 4-year-old Tabby, claims he has not been fed in "approximately one thousand years." This statement comes despite eyewitness accounts confirming he finished a bowl of premium tuna-flavored kibble exactly twelve minutes ago.</p>
+    <!-- Students should convert this into <nav> containing a real list (<ul><li><a>) -->
+    <nav id="nav">
+      <link href="#">Home</link>
+      <link href="#">Announcements</link>
+      <link href="#">Events</link>
+      <link href="#">Contact</link>
+    </nav>
+      <!--I have named this class nav because it "contains" links to other pages of the same website-->
+    <div class="layout">
+      <content id="content">
 
-        <p>Mr. Whiskers, speaking through a series of increasingly loud and dramatic meows, demonstrated the severity of his condition by showing his owners the <em>very bottom</em> of the ceramic bowl, which was clearly visible through a small gap in the biscuits.</p>
+        <!-- Students should convert each .post into an <article> with an <h2> -->
+        <div class="post">
+          <!-- Students should convert this into headings (h1/h2) and fix hierarchy -->
+          <h2 class="title">Registration Reminder</h2>
+          <!-- I put th h2 heading here because i can only use the H1 for the true title of the page so id need the second largest for these title classes-->
+          <meta class="meta">Posted Feb 12</meta>
+          <p class="text">
+            Course registration closes Friday. Meet with your advisor if you have holds.
+          </p> <!-- I put a p tag here because smaller text would be needed for content inside posts-->
+        </div>
 
-        <blockquote>
-            "The situation is dire," his owner, Sarah, reported. "He has already collapsed twice onto my laptop keyboard while I was trying to work. He's currently looking at the refrigerator as if it contains the only hope for his survival."
-        </blockquote>
+        <post class="post">
+          <h2 class="title">Library Workshop</h2>
+          <meta class="meta">Posted Feb 10</meta>
+          <p class="text">
+            A research skills workshop is available this week. Limited seats.
+          </p>
+        </post>
 
-        <h3>Evidence of the 'Great Hunger'</h3>
-        <ul>
-            <li>Intense staring at the cupboard door.</li>
-            <li>Aggressive weaving between the legs of anyone walking toward the kitchen.</li>
-            <li>A complete refusal to acknowledge the half-full bowl of water next to him.</li>
-        </ul>
+      </content>
 
-        <p>At the time of reporting, Mr. Whiskers has decided to take a nap in a sunbeam, though experts suggest he will resume his protest the moment a can opener is heard anywhere in the tri-state area.</p>
+      <!-- Students should convert this into <aside> -->
+      <aside id="sidebar">
+
+        <div class="box">
+          <h2 class="title">Related Links</h2>
+          <!-- Students should convert these into a real list -->
+          Advising Hours<br>
+          Academic Calendar<br>
+          IT Help Desk
+        </div>
+<!-- I put the sidebar here because it contains extra information that wouldnt be in the navigation class -->
+        <div class="box">
+          <h2 class="title">Contact</h2>
+          Email: studentservices@example.com<br>
+          Phone: (555) 555-5555
+        </div>
+
+      </aside>
     </div>
 
+    <footer id="footer">
+      © Hofstra University
+    </footer>
+
+  </div>
 </body>
 </html>
