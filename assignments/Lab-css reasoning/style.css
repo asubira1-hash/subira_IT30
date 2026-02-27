@@ -1,7 +1,7 @@
 Style.css
-p {
+ .p{p {
 color: grey;
-}
+}}
 
 .highlight {
 color: pink;
@@ -10,4 +10,5 @@ color: pink;
 #special {
 color: black;
 }
+
 
