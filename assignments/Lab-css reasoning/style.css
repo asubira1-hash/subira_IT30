@@ -10,11 +10,7 @@ color: blue;
 color: black;
 }
 
-
-
-
-
-
-
-
+p.highlight {
+  color: green;
+}
 
