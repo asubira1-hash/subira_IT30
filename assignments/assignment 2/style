@@ -1,0 +1,12 @@
+body.html{ 
+font-family: Arial, sans-seriff;
+background-color: indigo;
+}
+.sdname{
+font-size:22px ;
+margin: 02px;
+}
+h2{
+color:violet;
+margin: 2px;
+}
