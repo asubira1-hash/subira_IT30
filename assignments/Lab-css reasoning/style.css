@@ -1,12 +1,16 @@
-Style.css
-html body p { 
-    color: gray;}
+
+p {
+color: gray;
+}
 
 .highlight {
-color: pink;}
+color: pink;
+}
 
 #special {
-color: black;}
+color: black;
+}
+
 
 
 
