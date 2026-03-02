@@ -1,5 +1,4 @@
-
-p {
+body p {
 color: gray;
 }
 
@@ -10,6 +9,7 @@ color: pink;
 #special {
 color: black;
 }
+
 
 
 
