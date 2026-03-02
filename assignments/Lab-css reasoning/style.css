@@ -1,5 +1,5 @@
 Style.css
-body+p {
+p{attr*"1"] {
 color: gray;
 }
 
@@ -10,6 +10,7 @@ color: pink;
 #special {
 color: black;
 }
+
 
 
 
