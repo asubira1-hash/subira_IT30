@@ -7,11 +7,11 @@ font-size:10px;
 color:Darkgrey;
 margin: 0 0 2 2px
 }
-.sdname{
+h1.sdname{
 font-size:22px ;
 margin: 02px;
 }
-.title{
+h2.title{
 color:Purple;
 margin: 4px;
 }
@@ -22,6 +22,7 @@ p.text{
 a{ 
   link-color:Darkblue;
  }
+
 
 
 
