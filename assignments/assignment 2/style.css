@@ -1,7 +1,4 @@
-html body{ 
-font-family: Arial, sans-seriff;
-background-color: green;
-}
+
 post .meta{
 font-size:10px;
 color:Darkgrey;
@@ -22,6 +19,137 @@ p.text{
 a{ 
   link-color:Darkblue;
  }
+
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      background: #f5f6f8;
+      color: #222;
+    }
+html body{ 
+font-family: Arial, sans-seriff;
+background-color: green;
+}
+
+    .container {
+      max-width: 980px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+
+    
+    #header {
+      background: #1f2937;
+      color: #fff;
+      padding: 18px 20px;
+      border-radius: 10px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    #nav {
+      margin-top: 12px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+
+    /* Inline vs block trap:
+       Links are inline by default; spacing/padding may feel "off" until students improve structure. */
+    #nav a {
+      text-decoration: none;
+      color: #2563eb;
+      margin-right: 10px;
+    }
+
+    #nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Two-column layout */
+    .layout {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+      align-items: start;
+    }
+
+    #content, main {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    #sidebar {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .post {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+      background: #fbfbfc;
+    }
+
+    
+    h1 {
+      font-size: 22px;
+      margin: 0 0 6px 0;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 6px 0;
+    }
+
+    .meta {
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+
+    .box {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+      background: #fbfbfc;
+    }
+
+    #footer {
+      margin-top: 14px;
+      padding: 12px 16px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    /* Make it readable on narrow screens */
+    @media (max-width: 800px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+
 
 
 
