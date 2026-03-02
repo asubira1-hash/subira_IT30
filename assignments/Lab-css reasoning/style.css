@@ -1,6 +1,6 @@
 Style.css
-body p {
-color: grey ;
+ p b {
+color: gray ;
 }
 
 .highlight {
@@ -10,6 +10,7 @@ color: pink;
 #special {
 color: black;
 }
+
 
 
 
