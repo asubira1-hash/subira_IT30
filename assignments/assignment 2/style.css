@@ -2,7 +2,7 @@ html body{
 font-family: Arial, sans-seriff;
 background-color: green;
 }
-.meta{
+meta.post{
 font-size:10px;
 color:Darkgrey;
 margin: 0 0 2 2px
@@ -22,6 +22,7 @@ p.text{
 a{ 
   link-color:Darkblue;
  }
+
 
 
 
