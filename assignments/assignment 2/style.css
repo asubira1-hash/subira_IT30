@@ -6,7 +6,7 @@ background-color: Darkgreen;
 font-size:22px ;
 margin: 02px;
 }
-h2{
+h2.title{
 color:purple;
 margin: 2px;
 }
@@ -17,6 +17,7 @@ p.text{
 a{ 
   link-color:Darkblue;
  }
+
 
 
 
