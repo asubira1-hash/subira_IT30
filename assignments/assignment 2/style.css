@@ -3,9 +3,10 @@ font-family: Arial, sans-seriff;
 background-color: green;
 }
 .meta{
-  font-size:10px;
-  color:Darkgrey
-    }
+font-size:10px;
+color:Darkgrey;
+margin: 0 0 0 2px
+}
 .sdname{
 font-size:22px ;
 margin: 02px;
@@ -21,6 +22,7 @@ p.text{
 a{ 
   link-color:Darkblue;
  }
+
 
 
 
