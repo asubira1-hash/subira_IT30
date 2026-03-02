@@ -1,6 +1,6 @@
-body.html{ 
+html body{ 
 font-family: Arial, sans-seriff;
-background-color: indigo;
+background-color: Darkgreen;
 }
 .sdname{
 font-size:22px ;
@@ -10,3 +10,4 @@ h2{
 color:violet;
 margin: 2px;
 }
+
