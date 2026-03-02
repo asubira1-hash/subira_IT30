@@ -5,7 +5,7 @@ background-color: green;
 .meta{
 font-size:10px;
 color:Darkgrey;
-margin: 0 0 0 2px
+margin: 0 0 2 2px
 }
 .sdname{
 font-size:22px ;
@@ -13,7 +13,7 @@ margin: 02px;
 }
 .title{
 color:Purple;
-margin: 2px;
+margin: 4px;
 }
 p.text{ 
   margin: 2px;
@@ -22,6 +22,7 @@ p.text{
 a{ 
   link-color:Darkblue;
  }
+
 
 
 
