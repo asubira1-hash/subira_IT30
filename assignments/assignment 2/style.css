@@ -1,7 +1,11 @@
 html body{ 
 font-family: Arial, sans-seriff;
-background-color: Darkgreen;
+background-color: green;
 }
+.meta{
+  font-size:10px;
+  color:Darkgrey
+    }
 .sdname{
 font-size:22px ;
 margin: 02px;
@@ -17,6 +21,7 @@ p.text{
 a{ 
   link-color:Darkblue;
  }
+
 
 
 
