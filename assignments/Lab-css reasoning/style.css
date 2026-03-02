@@ -2,13 +2,14 @@ body p {
 color: gray;
 }
 
-.highlight {
-color: pink;
+p.highlight {
+color: blue;
 }
 
 #special {
 color: black;
 }
+
 
 
 
