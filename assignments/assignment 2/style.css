@@ -2,7 +2,7 @@
     
  .meta{
 font-size:10px;
-color:Darkgrey;
+color:#ffffff;
 margin: 8 0 2 2px
 }
 .sdname{  /* */
@@ -47,12 +47,7 @@ background-color: #d9898e;
       border-radius: 10px;
     }
 
-    .logo {
-      font-size: 22px;
-      font-weight: 700;
-      margin-bottom: 4px;
-    }
-
+    
     .tagline {
       font-size: 14px;
       opacity: 0.9;
@@ -144,6 +139,7 @@ background-color: #d9898e;
       }
     }
     
+
 
 
 
