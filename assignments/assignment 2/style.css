@@ -1,10 +1,16 @@
-
-post .meta{
+ .pgcontent {
+      border: 1px solid grey;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+      background: #b8b0b4;
+    
+ .meta{
 font-size:10px;
 color:Darkgrey;
-margin: 0 0 2 2px
+margin: 8 0 2 2px
 }
-h1.sdname{
+.sdname{  /* */
 font-size:22px ;
 margin: 02px;
 }
@@ -100,13 +106,7 @@ background-color: #d9898e;
       padding: 14px;
     }
 
-    .post {
-      border: 1px solid #e5e7eb;
-      border-radius: 10px;
-      padding: 12px;
-      margin-bottom: 12px;
-      background: #fbfbfc;
-    }
+   }
 
     
     h1 {
@@ -118,12 +118,7 @@ background-color: #d9898e;
       margin: 0 0 6px 0;
     }
 
-    .meta {
-      font-size: 12px;
-      color: #6b7280;
-      margin-bottom: 8px;
-    }
-
+   
     .box {
       border: 1px solid #e5e7eb;
       border-radius: 10px;
@@ -149,6 +144,7 @@ background-color: #d9898e;
       }
     }
     
+
 
 
 
