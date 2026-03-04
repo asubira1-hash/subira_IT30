@@ -30,7 +30,7 @@ body {
     }
 html body{ 
 font-family: Arial, sans-serif;
-background-color: #d9898e;
+background-color: #365d99;
 }
 
     .container {
@@ -41,7 +41,7 @@ background-color: #d9898e;
 
     
     #header {
-      background: #247553;
+      background: #9e52eb;
       color: #fff;
       opacity:0.8;
       padding: 18px 20px;
@@ -142,6 +142,7 @@ background-color: #d9898e;
       }
     }
     
+
 
 
 
