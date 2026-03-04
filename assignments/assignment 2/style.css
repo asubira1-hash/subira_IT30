@@ -111,12 +111,11 @@ background-color: #365d99;
     }
 
     .pgcontent {
-      border:1px solid #e5e7eb;
-      background:#de5b52;
-          opacity:0.8;
+      
       border-radius: 10px;
       padding: 12px;
       margin-bottom: 12px;
+      opacity:0.8;
     }
     .box {
       border: 1px solid #e5e7eb;
@@ -144,6 +143,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
