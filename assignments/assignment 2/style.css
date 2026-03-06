@@ -59,11 +59,11 @@ background-color: #365d99;
     }
 
     #nav {
-      margin-top: 12px;
+      margin-top: 15px;
       background: #d5def0;
       border: 1px solid #e5e7eb;
-      border-radius: 10px;
-        padding-top:30px;
+      border-radius: 20px;
+        padding-top:50px;
       padding: 12px 14px;
     }
 
@@ -157,6 +157,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
