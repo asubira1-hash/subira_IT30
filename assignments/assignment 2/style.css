@@ -145,6 +145,10 @@ background-color: #365d99;
     left:50px;
     z-index:7;
 }
+
+.text{
+    color:#ffffff;
+}
     .box {
       border: 1px solid #e5e7eb;
       border-radius: 10px;
@@ -171,6 +175,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
