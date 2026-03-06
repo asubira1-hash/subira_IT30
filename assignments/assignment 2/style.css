@@ -49,6 +49,7 @@ background-color: #365d99;
       opacity:0.8;
       padding: 18px 20px;
       border-radius: 10px;
+        z-index:12;
     }
 
     
@@ -156,6 +157,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
