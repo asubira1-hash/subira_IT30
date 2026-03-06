@@ -150,6 +150,7 @@ background-color: #365d99;
 
 .text{
     color:#ffffff;
+    z-index:8;
 }
     .box {
       border: 1px solid #e5e7eb;
@@ -177,6 +178,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
