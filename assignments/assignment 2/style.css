@@ -65,6 +65,7 @@ background-color: #365d99;
       border-radius: 20px;
         padding-top:50px;
       padding: 12px 14px;
+        z-index:10;
     }
 
     /* Inline vs block trap:
@@ -168,6 +169,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
