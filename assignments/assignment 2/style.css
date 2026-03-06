@@ -88,6 +88,7 @@ background-color: #365d99;
       gap: 14px;
       margin-top: 14px;
       align-items: start;
+        height:900px:
     }
 
     #content, main {
@@ -139,7 +140,7 @@ background-color: #365d99;
       padding: 20px;
       margin-bottom: 12px;
     position:absolute;
-    top:175px;
+    top:250px;
     left:50px;
     z-index:7;
 }
@@ -169,6 +170,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
