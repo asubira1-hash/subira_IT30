@@ -133,7 +133,7 @@ background-color: #365d99;
       margin-bottom: 12px;
     position:absolute;
     top:100px;
-    left:50px;
+    left:300px;
     z-index:7;
 }
 .images{
@@ -142,7 +142,7 @@ background-color: #365d99;
       margin-bottom: 12px;
     position:absolute;
     top:250px;
-    left:50px;
+    left:300px;
     z-index:7;
 }
 
@@ -175,6 +175,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
