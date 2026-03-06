@@ -16,6 +16,8 @@ margin: 4px;
 p.text{ 
   margin: 2px;
   font-family: calibri;
+    color:#ffffff;
+    z-index:4;
 }
 a{ 
   link-color:Darkblue;
@@ -148,10 +150,7 @@ background-color: #365d99;
     z-index:5;
 }
 
-.text{
-    color:#ffffff;
-    z-index:8;
-}
+
     .box {
       border: 1px solid #e5e7eb;
       border-radius: 10px;
@@ -178,6 +177,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
