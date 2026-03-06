@@ -135,7 +135,7 @@ background-color: #365d99;
       margin-bottom: 12px;
     position:absolute;
    bottom:450px;
-    left:150px;
+    left:500px;
 }
 .images{
      border-radius: 10px;
@@ -144,7 +144,7 @@ background-color: #365d99;
       margin-bottom: 12px;
     position:absolute;
     bottom:250px;
-    left:150px;
+    left:500px;
 }
 p.text{
     color:#ffffff;
@@ -177,6 +177,7 @@ p.text{
       }
     }
     
+
 
 
 
