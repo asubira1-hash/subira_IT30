@@ -124,6 +124,15 @@ background-color: #365d99;
       margin-bottom: 12px;
          z-index:10;
        }
+.image{
+     border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 12px;
+    position:absolute;
+    top:10px;
+    left:50px;
+    z-index:7;
+}
 .images{
      border-radius: 10px;
       padding: 20px;
@@ -159,6 +168,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
