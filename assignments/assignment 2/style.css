@@ -134,10 +134,8 @@ background-color: #365d99;
       padding: 20px;
       margin-bottom: 12px;
     position:absolute;
-   bottom:250px;
+   bottom:450px;
     left:150px;
-   
-    z-index:8;
 }
 .images{
      border-radius: 10px;
@@ -145,10 +143,8 @@ background-color: #365d99;
     padding-top:30px;
       margin-bottom: 12px;
     position:absolute;
-    bottom:150px;
+    bottom:250px;
     left:150px;
-    
-    z-index:8;
 }
 p.text{
     color:#ffffff;
@@ -181,6 +177,7 @@ p.text{
       }
     }
     
+
 
 
 
