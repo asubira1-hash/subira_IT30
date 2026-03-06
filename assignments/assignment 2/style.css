@@ -135,16 +135,17 @@ background-color: #365d99;
     position:absolute;
    bottom:15px;
     left:150px;
-    z-index:7;
+    z-index:5;
 }
 .images{
      border-radius: 10px;
       padding: 20px;
+    padding-top:10px;
       margin-bottom: 12px;
     position:absolute;
     bottom:5px;
     left:150px;
-    z-index:7;
+    z-index:5;
 }
 
 .text{
@@ -176,6 +177,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
