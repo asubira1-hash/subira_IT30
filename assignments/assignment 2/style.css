@@ -133,8 +133,8 @@ background-color: #365d99;
       padding: 20px;
       margin-bottom: 12px;
     position:absolute;
-   
-    left:180px;
+   bottom:150px;
+    left:150px;
     z-index:7;
 }
 .images{
@@ -142,8 +142,8 @@ background-color: #365d99;
       padding: 20px;
       margin-bottom: 12px;
     position:absolute;
-    
-    left:180px;
+    bottom:200px;
+    left:150px;
     z-index:7;
 }
 
@@ -176,6 +176,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
