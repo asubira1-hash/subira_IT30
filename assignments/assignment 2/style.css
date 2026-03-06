@@ -64,6 +64,7 @@ background-color: #365d99;
       border: 1px solid #e5e7eb;
       border-radius: 20px;
         padding-top:50px;
+        top:100px;
       padding: 12px 14px;
         z-index:10;
     }
@@ -170,6 +171,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
