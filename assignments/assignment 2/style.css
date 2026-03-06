@@ -17,7 +17,7 @@ p.text{
   margin: 2px;
   font-family: calibri;
     color:#ffffff;
-    z-index:4;
+    z-index:10;
 }
 a{ 
   link-color:Darkblue;
@@ -177,6 +177,7 @@ background-color: #365d99;
       }
     }
     
+
 
 
 
