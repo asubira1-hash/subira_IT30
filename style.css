@@ -1,0 +1,249 @@
+
+    
+ .meta{
+font-size:10px;
+color:#ffffff;
+margin: 8 0 2 2px
+}
+.sdname{  /* */
+font-size:22px ;
+margin: 02px;
+}
+h2.title{
+color:Purple;
+margin: 4px;
+}
+p.text{ 
+  margin: 2px;
+  font-family: calibri;
+    
+}
+a{ 
+  link-color:Darkblue;
+ }
+
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #ffffff;
+      color: #222;
+    }
+
+html body { 
+font-family: Arial, sans-serif;
+background-color: #365d99;
+}
+
+    .container {
+      max-width: 900px;
+      margin: 0 ;
+      padding: 0 16px;
+    }
+
+    
+    #header {
+        position:fixed;
+        top:0;
+        width:400px;
+      background: #9e52eb;
+      color: #fff;
+      opacity:0.8;
+      padding: 18px 20px;
+      border-radius: 10px;
+        z-index:10;
+    }
+
+    
+    .tagline {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    #nav {
+      margin-top: 110px;
+      background: #d5def0;
+      border: 1px solid #e5e7eb;
+      border-radius: 20px;
+        padding-top:50px;
+       
+      padding: 12px 14px;
+        z-index:10;
+    }
+
+    /* Inline vs block trap:
+       Links are inline by default; spacing/padding may feel "off" until students improve structure. */
+    #nav a {
+      text-decoration: none;
+      color: #2563eb;
+      margin-right: 10px;
+    }
+
+    #nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Two-column layout */
+    .layout {
+      display: grid;
+      padding-top:10px;
+      grid-template-columns: 2fr 1fr;
+      gap: 14px;
+      margin-top: 14px;
+      align-items: start;
+        height:900px:
+    }
+
+    #content, main {
+      background: #ad8ff2;
+      border: 1px solid #e5e7eb;
+        opacity:0.8;
+      border-radius: 10px;
+        
+      padding: 14px;
+    }
+
+    #sidebar {
+      background: #ad8ff2;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+   
+
+    
+    h1 {
+      font-size: 22px;
+      margin: 0 0 6px 0;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 6px 0;
+    }
+
+    .pgcontent {
+      position:relative;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+         z-index:5;
+       }
+.image{
+     border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 12px;
+    position:absolute;
+   bottom:450px;
+    left:500px;
+}
+.images{
+     border-radius: 10px;
+      
+    padding-top:30px;
+      margin-bottom: 12px;
+    position:absolute;
+    bottom:250px;
+    left:500px;
+}
+p.text{
+    color:#ffffff;
+    z-index:10;
+}
+
+    .box {
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 12px;
+      background: #de5b52;
+      opacity:0.8;
+    }
+
+    #footer {
+      margin-top: 14px;
+      padding: 12px 16px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    /* Make it readable on narrow screens */
+    @media (max-width: 800px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
