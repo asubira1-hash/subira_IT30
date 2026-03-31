@@ -26,7 +26,7 @@ background-color: #7085C2;
 }
 
 #nav {
-	display:felx;
+	display:flex;
 flex-direction:column;
 position:fixed;
 margin-right:auto;
