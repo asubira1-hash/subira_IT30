@@ -99,7 +99,7 @@ function filterItems(value) {  // TODO 6a — name the parameter
 
       const filtered2 = [];
       for (let i = 0; i < items.length; i++) {
-        if (items[i].category === "Cat") {  // TODO 6d
+        if (items[i].category === "Dingus") {  // TODO 6d
           filtered2.push(items[i]);
         }
       }
@@ -110,7 +110,7 @@ function filterItems(value) {  // TODO 6a — name the parameter
 
       const filtered3 = [];
       for (let i = 0; i < items.length; i++) {
-        if (items[i].category === "Sandwich") {  // TODO 6d
+        if (items[i].category === "Grilled cheese") {  // TODO 6d
           filtered3.push(items[i]);
         }
       }
