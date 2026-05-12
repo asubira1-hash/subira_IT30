@@ -60,9 +60,12 @@ const items = [
 function renderItems(list) {
 
 
-  const container = document.getElementById("results-container");
+  const container = document.getElementById('results-container');
+  if(container {
   container.innerHTML = "";
-
+  }else{
+    console.erroe("COuld not find results-container on this page!");
+  }
   for (let i = 0; i < list.length; i++) { 
      const card = document.createElement("div");
      card.className="item-card";
