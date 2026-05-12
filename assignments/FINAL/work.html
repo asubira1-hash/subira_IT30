@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Work</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7J14QLNEVS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7J14QLNEVS');
+
+
+window.addEventListener('DOMContentLoaded', () => {
+    
+   
+    const images = document.querySelectorAll('.images');
+    images.forEach(img => {
+        img.addEventListener('click', function() {
+            gtag('event', 'image_click', { 
+                'image_id': this.id,
+                'image_src': this.src,
+                'image_alt': this.alt
+            });
+        });
+    });
+
+    
+    const navLinks = document.querySelectorAll('#nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            gtag('event', 'navigation_click', {
+                'link_text': this.textContent.trim(),
+                'destination_url': this.href,
+                'menu_location': 'header_main'
+            });
+        });
+    });
+});
+
+</script>
+
+<body>
+
+<header id="header">
+<h1>Work</h1>
+
+</header>
+
+<ul id="nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="work.html">Work</a>
+  <a href="contact.html">Contact</a>
+  <a href= "thoughts.html">Thoughts</a>
+</ul>
+<cont class="layout">
+<main>
+
+
+<section class="section-box">
+<h2>Work / Interests</h2>
+<p class="text">Project: Bathroom remodel- Tearing down wall and flooring to clear off the space. re-framing wall studs to account for shower niche. diverting plumbing to fit new shower head and accessories. drywall installation and re-tiling shower and floor. finished with paining and refunishing.</p>
+<h2> Before:</h2>
+<slider class="Slider-wrap">
+<slide class="Slides" id="mySlides1">
+
+<img class="slide" id="panbef" src="images/IMG_1022.jpg" alt="Full bathroom before" >
+
+<img class="slide" id="sinkbef" src="images/IMG_1023.jpg" alt="Bathroom sink before" >
+
+<img class="slide" id="showerbef" src="images/IMG_1024.jpg" alt="Shower closeup" >
+
+<img class="slide" id="closeupbef" src="images/IMG_1025.jpg" alt="Closeup of shower and toilet" >
+
+ <a class="prev"><</a>
+  <a class="next">></a>
+
+</slide>
+</slider>
+
+<h2>After:</h2>
+<slider class="Slider-wrap">
+<slide class="Slides" id="mySlides2">
+
+
+<img class="slide" id="closeupafter" src="images/IMG_0984.jpg" alt="Closeup of toilet after" >
+
+<img class="slide" id="sinkafter" src="images/IMG_0978.jpg" alt="Sink and mirror after" >
+
+<img class="slide" id="showerafter" src="images/IMG_0980.jpg" alt="Shower closeup after" >
+
+<img class="slide" id="showernicheafter" src="images/IMG_0982.jpg" alt="Shower closeup with niche after" >
+
+ <a class="prev" ><</a>
+  <a class="next">></a>
+
+</slide>
+</slider>
+
+</section>
+
+<section class="section-box">
+<p class="text"> Interests: Astrophotography- Mostly duting the summer months I go to nearby fields or mountains near me & observing the sky through a telescope. on a good night i take some photos. </p>
+<slider class="Slider-wrap">
+<slide class="Slides" id="mySlides3">
+<img class="slide" id="jupiter" src="images/Jupiter4moons.jpg" alt="Jupiter and 4 of its moons" >
+
+<img class="slide" id="Moon" src="images\Moon.png" alt="The Moon" >
+
+<img class="slide" id="Sombrero" src="images/SombreroGalaxy.png" alt="The Sombrero Galaxy" >
+
+<img class="slide" id="Whirlpool" src="images/WhirlpoolGalaxy.png" alt="The Whirlpool Galaxy" >
+
+ <a class="prev"><</a>
+  <a class="next">> </a>
+
+</slide>
+</slider>
+</section>
+
+<section class="section-box">
+<p class="text"> Interests: Fishing- Usually at the nearest body of water either the beach or a random creek or rivers searching for the 10lb bass which has been my goal for the past few months </p>
+</section>
+
+<script src="addedscript.js"> </script>
+			</main>
+		</cont>
+		<footer>
+	<p>© 2026 Andres Subira</p>
+
+</footer>
+
+	</body>
+</html>

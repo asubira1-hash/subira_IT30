@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7J14QLNEVS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7J14QLNEVS');
+
+
+window.addEventListener('DOMContentLoaded', () => {
+    
+   
+    const images = document.querySelectorAll('.images');
+    images.forEach(img => {
+        img.addEventListener('click', function() {
+            gtag('event', 'image_click', { 
+                'image_id': this.id,
+                'image_src': this.src,
+                'image_alt': this.alt
+            });
+        });
+    });
+
+    
+    const navLinks = document.querySelectorAll('#nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            gtag('event', 'navigation_click', {
+                'link_text': this.textContent.trim(),
+                'destination_url': this.href,
+                'menu_location': 'header_main'
+            });
+        });
+    });
+});
+
+  
+</script>
+<body>
+
+<header id="header">
+<h1>Thoughts</h1>
+
+</header>
+
+<ul id="nav">
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="work.html">Work</a>
+	<a href="contact.html">Contact</a>
+	<a href= "thoughts.html">Thoughts</a>
+</ul>
+<cont class="layout">
+
+<main>
+	 <section class="section-box">
+      <h2>My Interests & Projects</h2>
+      <p>Use the dropdown to filter by category.</p>
+
+      <div id="filter-area">
+        <label for="category-select">Filter by category:</label>
+        <select id="category-select" onchange="filterItems(this.value)">
+          <option value="">All</option>
+    			<option value="1">Astronomy</option>
+    			<option value="2">Cat</option>
+    			<option value="3">Sandwich</option>
+    			<option value="4">Captain</optiom>
+    			<option value="5">Home Cooking</option>
+        </select>
+      </div>
+      <p id="result-count"></p>
+
+      <div id="results-container"></div>
+      
+     
+    </section>
+
+<section class="section-box"id="recipe">
+<h2>Best way to approach a grilled cheese</h2>
+
+<p class="text">This grilled cheese recipe is perfect for a late monday morning just before taking final exams. If you are on a rush this is the perfect sandwich for you. </p>
+
+<h2>7-minute grilled cheese</h2>
+<div id=chee>
+<ul id="bgn">
+<li>Prep time: 2 minutes</li>
+<li>Cook time: 5 minutes</li>
+<li>Total time: 7 minutes</li>
+<li>Servings: 1 sandwich</li>
+</ul>
+<img class="images" id="grillcheese" src="images\Chee.jpg" alt= "A Grilled Cheese sandwich" width=40% height=30%>
+</div>
+
+<h2>Ingredients</h2>
+<ul id= "ing">
+	<li>2 sliced sourdough bread </li>
+	<li>1 tablespoon mayonaise</li>
+	<li>1 teaspoon Dijon mustard</li>
+	<li>1 slice sharp Cheddar </li>
+	<li>1 slice Monterey Jack </li>
+	<li>4 slices pickled jalapeños, well drained</li>
+	<li><b>Equipment:</b>non-stick pan & spatula</li>
+</ul>
+<h2>Instructions:</h2>
+<h3>1.Prep the bread</h3>
+<p class="text">Spread the mayonnaise evenly on one side of each slice of bread. This will be the outside of your sandwich. Turn the slices over so the mayo side is facing down on your cutting board.</p>
+<h3>2. Layer the flavor</h3>
+<p class="text">Spread the Dijon mustard evenly across the dry inside of one slice of bread. Layer the slice of sharp Cheddar on top of the mustard, follow with the pickled jalapeño slices, and top with the Monterey Jack cheese. Cover with the second slice of bread, mayo side facing up.</p>
+
+<h3>3.Cook till golden</h3>
+<p class="text">Place the sandwich into a cold skillet. Turn the heat to medium. Starting in a cold pan allows the cheese to melt fully by the time the bread toasts.</p>
+
+<h3>4.Flip and press</h3>
+<p class="text">Cook for 2 to 3 minutes until the bottom is deeply golden brown. Flip the sandwich, press down firmly with your spatula to maximize crust contact, and cook for another 2 to 3 minutes until the cheese is completely melted..</p>
+
+<h3>5. Serve</h3>
+<p class="text">Remove from the heat, slice diagonally, and serve immediately while hot.</p>
+
+
+
+</section>
+
+<section class="section-box">
+	<h2>Will anyone adopt this cat?!?!?!</h2>
+	<p>Someone please help this lonely kitten. His name is Dingus. He loves small rodents, and sniffing near gas lines. this lovely gentleman was found in the dressing room in a macy's in nashville tennessee. Will anyone adopt him??</p>
+	<img class="images"id="dingus" src="images/Dingus.jpg" alt="Dingus young fellow" Height="400" width="300">
+</section>
+</main>
+</cont>
+
+			
+	<footer>
+	<p>© 2026 Andres Subira</p>
+
+</footer>	
+<script src="addedscript.js"></script>
+
+	</body>
+</html>
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7J14QLNEVS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7J14QLNEVS');
+
+
+window.addEventListener('DOMContentLoaded', () => {
+    
+   
+    const images = document.querySelectorAll('.images');
+    images.forEach(img => {
+        img.addEventListener('click', function() {
+            gtag('event', 'image_click', { 
+                'image_id': this.id,
+                'image_src': this.src,
+                'image_alt': this.alt
+            });
+        });
+    });
+
+    
+    const navLinks = document.querySelectorAll('#nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            gtag('event', 'navigation_click', {
+                'link_text': this.textContent.trim(),
+                'destination_url': this.href,
+                'menu_location': 'header_main'
+            });
+        });
+    });
+});
+
+</script>
+<body>
+
+<header id="header">
+<h1>About</h1>
+
+</header>
+
+<ul id="nav">
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="work.html">Work</a>
+	<a href="contact.html">Contact</a>
+	<a href= "thoughts.html">Thoughts</a>
+</ul>
+<cont class="layout">
+
+<main>
+
+<section class="section-box">
+<h2>About Me</h2>
+<p class="text">I am a Junior at hofstra University currently majoring in Information Systems with a minor in Astronomy. A work history of 6 years including work as a camp counselor, contractors assistant, Sushi restaurant server,and gig work. I am looking to gain experience with electrical systems, databases, and coding. skills include hardware repair, electrical wiring, tile installation, basic plumbing, and solving a rubiks cube. Born in San Juan, Puerto Rico and currently living in Charlotte, NC </p>
+</section>
+<img class="images" id="gradpht" src="images\FullSizeRender.jpg" alt= "A handsome man in a suit" width="300" height="500">
+</main>
+</cont>
+
+			
+	<footer>
+	<p>© 2026 Andres Subira</p>
+
+</footer>	
+
+
+	</body>
+</html>
+
