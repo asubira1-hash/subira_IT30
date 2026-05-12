@@ -61,7 +61,7 @@ function renderItems(list) {
 
 
   const container = document.getElementById('results-container');
-  if(container {
+  if(container){
   container.innerHTML = "";
   }else{
     console.error("Could not find results-container on this page!");
